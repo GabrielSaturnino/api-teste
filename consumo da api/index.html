@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <hr>
+    <h3>Login</h3>
+    <input type="text" name="loginEmail" id="loginEmail" placeholder="Email"><br><br>
+    <input type="password" name="loginPassword" id="loginPassword" placeholder="Senha"><br><br>
+    <button onclick="login()">Logar</button>
+    <hr>
+    <h3>Lista de jogos:</h3>
+    <ul id="games"></ul>
+    <hr>
+    <h3>Cadastrar Jogo</h3>
+    <input type="text" name="title" id="title" placeholder="Titulo"><br><br>
+    <input type="number" name="year" id="year" placeholder="Ano"><br><br>
+    <input type="number" name="price" id="price" placeholder="preco"><br><br>
+    <button type="button" onclick="creatGame()">Cadastrar</button>
+    <hr>
+    <h3>Atualizar Game:</h3>
+    <input type="text" name="idEdit" id="idEdit" placeholder="ID" readonly><br><br>
+    <input type="text" name="titleEdit" id="titleEdit" placeholder="Titulo"><br><br>
+    <input type="number" name="yearEdit" id="yearEdit" placeholder="Ano"><br><br>
+    <input type="number" name="priceEdit" id="priceEdit" placeholder="preco"><br><br>
+    <button type="button" onclick="updateGame()">Cadastrar</button>
+    <hr>
+</head>
+<body>
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./script.js"></script>
+
+</html>
